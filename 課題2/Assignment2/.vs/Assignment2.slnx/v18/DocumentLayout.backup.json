@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\Assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96630815-8592-4890-B507-89EAAFA31F90}|Assignment2\\Assignment2.csproj|c:\\users\\wohara\\documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\assignment2\\assignment2\\taskanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96630815-8592-4890-B507-89EAAFA31F90}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\taskanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96630815-8592-4890-B507-89EAAFA31F90}|Assignment2\\Assignment2.csproj|c:\\users\\wohara\\documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\assignment2\\assignment2\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{96630815-8592-4890-B507-89EAAFA31F90}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96630815-8592-4890-B507-89EAAFA31F90}|Assignment2\\Assignment2.csproj|c:\\users\\wohara\\documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\assignment2\\assignment2\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96630815-8592-4890-B507-89EAAFA31F90}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96630815-8592-4890-B507-89EAAFA31F90}|Assignment2\\Assignment2.csproj|c:\\users\\wohara\\documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\assignment2\\assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96630815-8592-4890-B507-89EAAFA31F90}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "nlog.config",
+              "DocumentMoniker": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\Assignment2\\Assignment2\\nlog.config",
+              "RelativeDocumentMoniker": "Assignment2\\nlog.config",
+              "ToolTip": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\Assignment2\\Assignment2\\nlog.config",
+              "RelativeToolTip": "Assignment2\\nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-22T05:45:35.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskAnalyzer.cs",
+              "DocumentMoniker": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\Assignment2\\Assignment2\\TaskAnalyzer.cs",
+              "RelativeDocumentMoniker": "Assignment2\\TaskAnalyzer.cs",
+              "ToolTip": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\Assignment2\\Assignment2\\TaskAnalyzer.cs",
+              "RelativeToolTip": "Assignment2\\TaskAnalyzer.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T05:37:14.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\Assignment2\\Assignment2\\TaskModel.cs",
+              "RelativeDocumentMoniker": "Assignment2\\TaskModel.cs",
+              "ToolTip": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\Assignment2\\Assignment2\\TaskModel.cs",
+              "RelativeToolTip": "Assignment2\\TaskModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T05:33:30.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\Assignment2\\Assignment2\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment2\\Program.cs",
+              "ToolTip": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\\u6700\u7D42\u8A55\u4FA1\u8AB2\u984C\\final_assignment\\\u8AB2\u984C2\\Assignment2\\Assignment2\\Program.cs",
+              "RelativeToolTip": "Assignment2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T05:22:16.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

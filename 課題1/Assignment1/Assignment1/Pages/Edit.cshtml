@@ -1,0 +1,38 @@
+﻿@page
+@model EditModel
+@{
+    ViewData["Title"] = "Edit page";
+}
+
+<h5>編集</h5>
+<br />
+
+<form method="post" asp-page-handler="Edit">
+
+    <!-- asp-forを入力するための隠しタグ -->
+    <input type="hidden" asp-for="EditTask.TASK_ID" />
+
+    <!-- 入力 -->
+    <label>タスク名</label>
+    <input type="text" asp-for="EditTask.TASK_NAME">
+    <br />
+    <label>担当者名</label>
+    <input type="text" asp-for="EditTask.ASSIGNEE">
+    <br />
+    <label>期限日</label>
+    <input type="datetime-local" class="form-control" asp-for="EditTask.DUE_DATE">
+    <br />
+    <label>ステータス</label>
+    <select asp-for="EditTask.STATUS">
+        <option value="未着手">未着手</option>
+        <option value="進行中">進行中</option>
+        <option value="完了">完了</option>
+    </select>
+    <br />
+
+    <!-- ボタン -->
+    <button type="submit">更新</button>
+    <a asp-page="/Index">
+        <button type="submit">キャンセル</button>
+    </a>
+</form>

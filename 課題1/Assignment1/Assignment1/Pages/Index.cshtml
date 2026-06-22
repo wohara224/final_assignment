@@ -1,0 +1,54 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Index page";
+}
+
+<h5>ToDo一覧</h5>
+<br />
+
+<!-- 検索機能 -->
+<form method="get">
+    <select asp-for="Filter">
+        <option value=0 selected>すべて</option>
+        <option value=1>未着手</option>
+        <option value=2>進行中</option>
+        <option value=3>完了</option>
+    </select>
+    <input asp-for="UserName" type="text" placeholder="担当者名を入力してください" maxlength="50"/>
+    <button type="submit">検索</button>
+</form>
+<br />
+<!-- タスクリスト表示 -->
+<table class=" task-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>タスク名</th>
+            <th>担当者名</th>
+            <th>期限日</th>
+            <th>ステータス</th>
+            <th>登録日時</th>
+            <th>更新日時</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var task in Model.Tasks)
+        {
+            <tr>
+                <td>
+                    <!-- 編集画面への遷移ボタン -->
+                    <a asp-page="/Edit" asp-route-id="@task.TASK_ID">
+                        <button type="submit">編集</button>
+                    </a>
+                </td>
+                <td>@task.TASK_NAME</td>
+                <td>@task.ASSIGNEE</td>
+                <td>@task.DUE_DATE</td>
+                <td>@task.STATUS</td>
+                <td>@task.CREATE_DATETIME</td>
+                <td>@task.UPDATE_DATETIME</td>
+            </tr>
+        }
+    </tbody>
+</table>

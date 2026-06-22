@@ -1,0 +1,6 @@
+2026-06-22 15:27:13.3073|INFO|TaskAuditApp.Program|タスク統計バッチ処理を開始します。 
+2026-06-22 15:27:14.4543|INFO|TaskAuditApp.Program|期限切れタスクのチェックを開始します。 
+2026-06-22 15:27:14.4543|INFO|TaskAuditApp.Program|担当者ごとの未完了タスク数集計を出力します。 
+2026-06-22 15:27:14.4543|INFO|TaskAuditApp.Program|担当者: 内田 / 未完了タスク数: 1件 
+2026-06-22 15:27:14.4543|INFO|TaskAuditApp.Program|担当者: 王 / 未完了タスク数: 2件 
+2026-06-22 15:27:14.4543|INFO|TaskAuditApp.Program|タスク統計バッチ処理を終了しました。 
