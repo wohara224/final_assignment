@@ -28,7 +28,7 @@ public class TaskAnalyzer
                 if (task.DUE_DATE > DateTime.Today)
                 {
                     // 警告ログ出力
-                    _logger.Info($"【警告】期限切れタスクを発見: {task.TASK_NAME} (担当: {task.ASSIGNEE}, 期限: {task.DUE_DATE:yyyy/MM/dd})"); // ＊\削除
+                    _logger.Warn($"【警告】期限切れタスクを発見: {task.TASK_NAME} (担当: {task.ASSIGNEE}, 期限: {task.DUE_DATE:yyyy/MM/dd})"); // ＊\削除
                     Console.WriteLine($"【警告】期限切れタスクを発見: {task.TASK_NAME} (担当: {task.ASSIGNEE}, 期限: {task.DUE_DATE:yyyy/MM/dd})"); // ＊確認用
                 }
             }
