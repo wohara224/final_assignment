@@ -17,10 +17,10 @@ public class IndexModel : PageModel
 
     public IEnumerable<TaskModel> Tasks { get; set; }
 
-    [BindProperty(SupportsGet = true)]
+    [BindProperty]
     public int Filter { get; set; }
 
-    [BindProperty(SupportsGet = true)]
+    [BindProperty]
     public string? UserName { get; set; }
 
     public async Task<IActionResult> OnGetAsync()
@@ -28,13 +28,27 @@ public class IndexModel : PageModel
         try
         {
             // SQLを実行(インターフェースから呼び出し)
+            Tasks = await _sqlrepositry.GetIndex();
+        }
+        catch (Exception ex)
+        {
+            // DB異常発生があれば異常画面表示
+            return StatusCode(500);
+
+        }
+        return Page();
+    }
+    public async Task<IActionResult> OnPostAsync()
+    {
+        try
+        {
+            // SQLを実行(インターフェースから呼び出し)
             var tasklist = await _sqlrepositry.GetIndex();
-            var task = new List<TaskModel>();
 
             switch (Filter)
             {
                 case 1:
-                    tasklist = tasklist.Where(t=> t.STATUS == "未着手");
+                    tasklist = tasklist.Where(t => t.STATUS == "未着手");
                     break;
                 case 2:
                     tasklist = tasklist.Where(t => t.STATUS == "進行中");
@@ -46,7 +60,7 @@ public class IndexModel : PageModel
                     break;
             }
 
-            if(!string.IsNullOrWhiteSpace(UserName))
+            if (!string.IsNullOrWhiteSpace(UserName))
             {
                 tasklist = tasklist.Where(t => t.ASSIGNEE.Contains(UserName));
             }
