@@ -23,7 +23,7 @@ public class IndexModel : PageModel
     [BindProperty]
     public string? UserName { get; set; }
 
-    public async Task<IActionResult> OnGetAsync()
+    public async Task<IActionResult> OnGet()
     {
         try
         {
@@ -38,7 +38,7 @@ public class IndexModel : PageModel
         }
         return Page();
     }
-    public async Task<IActionResult> OnPostAsync()
+    public async Task<IActionResult> OnPost()
     {
         try
         {

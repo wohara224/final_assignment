@@ -19,7 +19,7 @@ public class EditModel : PageModel
     [BindProperty]
     public TaskModel EditTask { get; set; }
 
-    public async Task<IActionResult> OnGetAsync(int id)
+    public async Task<IActionResult> OnGet(int id)
     {
         if (!ModelState.IsValid)
         {
@@ -43,7 +43,7 @@ public class EditModel : PageModel
         return Page();
     }
 
-    public async Task<IActionResult> OnPostAsync()
+    public async Task<IActionResult> OnPost()
     {
         // 更新日時の取得
         EditTask.UPDATE_DATETIME = DateTime.Now;
